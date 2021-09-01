@@ -1,0 +1,70 @@
+.login-container {
+    background-color: white;
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 22%;
+    margin-top:100px;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: gray;
+    font-weight:bold;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+input, button {
+    font-size: 1em;
+    display: block;
+    margin: 20px auto;
+    padding: 16px 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+input {
+    background-color: rgb(236,240,241);
+    width: 100%;
+    text-align: center;
+}
+
+input:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(52,153,221);
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px -3px #402EFF;
+}
+
+#login-button {
+    background-color: rgb(52,153,221);
+    color: white;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+#login-button:hover {
+    background-color: rgb(52, 136, 192);
+}
+
+#reset-button {
+    background-color: white;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    color: gray;
+    padding-bottom: 0;
+    cursor:pointer;
+}
+
+#reset-button:hover {
+    color: rgb(248, 72, 72);
+    border-color: rgb(248, 72, 72);
+}
